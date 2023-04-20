@@ -40,20 +40,23 @@ ul {
   line-height: 1.5;
 }
 
-.site-nav:hover .site-nav:focus {
+.site-nav:hover,
+.site-nav:focus {
   color: var(--active-button-color);
 }
 
 /* address */
 .outh-nav .link {
   color: var(--primary-text-color);
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  font-style: normal;
 }
-/* font-style: normal */
-.outh-nav:hover .outh-nav:focus {
+
+.outh-nav:hover,
+.outh-nav:focus {
   color: var(--active-button-color);
+  font-style: normal;
 }
 
 /* defolt class */
@@ -85,7 +88,8 @@ ul {
   cursor: pointer;
 }
 
-.box .link:hover .link:focus {
+.box .link:hover,
+.link:focus {
   background-color: var(--active-button-color);
   color: var(--background-style-color);
 }
@@ -149,7 +153,8 @@ ul {
   cursor: pointer;
 }
 
-.filtr-link:hover .filtr-link:focus {
+.filtr-link:hover,
+.filtr-link:focus {
   background-color: var(--active-button-color);
   color: var(--background-style-color);
 }
