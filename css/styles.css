@@ -45,7 +45,11 @@ ul {
   color: var(--active-button-color);
 }
 
-/* address */
+/* address  */
+.outh-nav.list {
+  font-style: normal;
+}
+
 .outh-nav .link {
   color: var(--primary-text-color);
   font-style: normal;
