@@ -18,9 +18,6 @@ ul {
 }
 
 /* webstudio*/
-/* 
-
- */
 .logo.link {
   color: var(--primary-button-color);
   font-family: Raleway, sans-serif;
@@ -43,21 +40,19 @@ ul {
   line-height: 1.5;
 }
 
-.site-nav:hover,
-.site-nav:focus {
+.site-nav:hover .site-nav:focus {
   color: var(--active-button-color);
 }
 
 /* address */
 .outh-nav .link {
   color: var(--primary-text-color);
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  font-style: normal;
 }
-
-.outh-nav:hover,
-.outh-nav:focus {
+/* font-style: normal */
+.outh-nav:hover .outh-nav:focus {
   color: var(--active-button-color);
 }
 
@@ -90,8 +85,7 @@ ul {
   cursor: pointer;
 }
 
-.box .link:hover,
-.link:focus {
+.box .link:hover .link:focus {
   background-color: var(--active-button-color);
   color: var(--background-style-color);
 }
@@ -124,7 +118,7 @@ ul {
 /* footer     */
 .box .link-title {
   color: var(--primary-button-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -135,7 +129,7 @@ ul {
 
 .box .title-studio {
   color: var(--design-element);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 }
 .box .box-text {
   color: var(--design-element);
@@ -155,8 +149,7 @@ ul {
   cursor: pointer;
 }
 
-.filtr-link:hover,
-.filtr-link:focus {
+.filtr-link:hover .filtr-link:focus {
   background-color: var(--active-button-color);
   color: var(--background-style-color);
 }
