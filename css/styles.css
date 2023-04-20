@@ -6,7 +6,6 @@
   --active-button-color: #404bbf;
   --design-element: #f4f4fd;
 }
-
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--background-style-color);
@@ -24,11 +23,11 @@ ul {
  */
 .logo.link {
   color: var(--primary-button-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .title-studio {
@@ -117,9 +116,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-name {
-  background-color: var(--design-element);
-}
 
 .section-feature {
   font-size: 16px;
@@ -132,13 +128,14 @@ ul {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .box .title-studio {
   color: var(--design-element);
+  font-family: Raleway;
 }
 .box .box-text {
   color: var(--design-element);
@@ -150,7 +147,14 @@ ul {
 .filtr-link {
   background-color: var(--design-element);
   color: var(--primary-button-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
+
 .filtr-link:hover,
 .filtr-link:focus {
   background-color: var(--active-button-color);
