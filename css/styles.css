@@ -160,3 +160,8 @@ ul {
   background-color: var(--active-button-color);
   color: var(--background-style-color);
 }
+
+.section-portfolio .list {
+  list-style: none;
+  text-decoration: none;
+}
