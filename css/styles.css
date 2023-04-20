@@ -56,7 +56,6 @@ ul {
 .outh-nav:hover,
 .outh-nav:focus {
   color: var(--active-button-color);
-  font-style: normal;
 }
 
 /* defolt class */
@@ -119,6 +118,12 @@ ul {
   font-size: 16px;
   line-height: 1.5;
 }
+
+.cectioon-name {
+  background-color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
 /* footer     */
 .box .link-title {
   color: var(--primary-button-color);
