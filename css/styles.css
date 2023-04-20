@@ -120,8 +120,11 @@ ul {
 }
 
 .cectioon-name {
-  background-color: #f4f4fd;
+  background-color: var(--design-element);
   letter-spacing: 0.02em;
+}
+.bacgraund-section-name {
+  background-color: var(--background-style-color);
 }
 
 /* footer     */
