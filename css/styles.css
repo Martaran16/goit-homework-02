@@ -41,8 +41,8 @@ ul {
   line-height: 1.5;
 }
 
-.site-nav:hover,
-.site-nav:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--active-button-color);
 }
 
@@ -58,8 +58,8 @@ ul {
   line-height: 1.5;
 }
 
-.outh-nav:hover,
-.outh-nav:focus {
+.outh-nav .link:hover,
+.outh-nav .link:focus {
   color: var(--active-button-color);
 }
 
@@ -93,16 +93,16 @@ ul {
 }
 
 .box .link:hover,
-.link:focus {
+.box .link:focus {
   background-color: var(--active-button-color);
   color: var(--background-style-color);
 }
 
 /* section */
-.bacgraund-section .bacgraund {
-  background-color: var(--background-style-color);
+.section-individual {
+  background-color: var(--design-element);
 }
-.list-photo-big {
+.teacher {
   background-color: #ffffff;
 }
 
