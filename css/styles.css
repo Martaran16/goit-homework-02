@@ -6,11 +6,11 @@
   --active-button-color: #404bbf;
   --design-element: #f4f4fd;
 }
+
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--background-style-color);
   color: var(--primary-text-color);
-
   letter-spacing: 0.02em;
 }
 ul {
@@ -26,6 +26,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .title-studio {
   color: var(--title-text-color);
@@ -67,12 +68,12 @@ ul {
   text-decoration: none;
 }
 /* hero */
-.box {
+.box,
+.futer-link {
   background-color: var(--title-text-color);
 }
 .box .subject {
   color: var(--background-style-color);
-
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -98,6 +99,12 @@ ul {
 }
 
 /* section */
+.bacgraund-section .bacgraund {
+  background-color: var(--background-style-color);
+}
+.list-photo-big {
+  background-color: #ffffff;
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -105,6 +112,7 @@ ul {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -119,20 +127,14 @@ ul {
 }
 
 .section-feature {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
 }
 
-.cectioon-name {
-  background-color: var(--design-element);
-  letter-spacing: 0.02em;
-}
-.bacgraund-section bacgraund {
-  background-color: var(--background-style-color);
-}
-
 /* footer     */
-.box .link-title {
+
+.futer-link .logo-futer {
   color: var(--primary-button-color);
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -143,11 +145,10 @@ ul {
   text-decoration: none;
 }
 
-.box .title-studio {
+.futer-link .title-studio {
   color: var(--design-element);
-  font-family: Raleway, sans-serif;
 }
-.box .box-text {
+.futer-link .box-text {
   color: var(--design-element);
   font-size: 16px;
   line-height: 1.5;
